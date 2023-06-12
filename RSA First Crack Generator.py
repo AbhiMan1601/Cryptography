@@ -1,8 +1,11 @@
 ############################################
 # RSA CTF Generator 
+
 # Credits go to Prof Bill Buchanan 
 # who put it up on Medium as a self starter to solve
 # CTFs on RSA encryption scheme
+# This however does not work everytime especially for 
+# higher factors
 ############################################
 
 # writing imports 
