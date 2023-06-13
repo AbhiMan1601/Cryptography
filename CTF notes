@@ -20,3 +20,17 @@ Part3: Decryption
 
 Cipher Text (C)         C
 Plain Text (M)          M = pow(C , d) % n
+
+Primality Testing - 
+Fermat's little theorem = if p is prime then a^p % a(mod p) but converse is not true
+
+Pollard's p-1 algorithm 
+Input. Integer N to be factored.
+1. Set a = 2 (or some other convenient value).
+2. Loop j = 2, 3, 4,... up to a specified bound.
+3. Set a = a^j mod N.
+4. Compute d = gcd(a − 1,N).
+5. If 1 <d<N then success, return d.
+6. Increment j and loop again at Step 2.
+
+square factorization = k.N + i^2 = j^2, N = (j^2 - i^2)/k = (i+j)(i-j)/k 
